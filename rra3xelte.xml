@@ -10,4 +10,5 @@
   <project name="LineageOS/android_hardware_samsung_slsi_exynos7580" path="hardware/samsung_slsi/exynos7580" remote="gitty" revision="lineage-17.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-17.1" />
   <project name="LineageOS/android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="gitty" revision="lineage-17.1" />
+  <project name="FlominatorGD/proprietary_vendor_samsung" path="vendor/samsung" remote="gitty" revision="lineage-17.1" />
 </manifest>
