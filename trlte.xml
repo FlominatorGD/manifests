@@ -3,6 +3,8 @@
   <remove-project name="crdroidandroid/android_frameworks_av"/>
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
+  <project name="apq8084/android_device_samsung_trlteduos" path="device/samsung/trlteduos" remote="github" revision="lineage-18.1"/>
+  <project name="apq8084/android_device_samsung_tblte" path="device/samsung/tblte" remote="github" revision="lineage-18.1"/>
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
