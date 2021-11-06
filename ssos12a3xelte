@@ -40,6 +40,9 @@
   <!-- Tools -->
   <!--remove-project name="android_tools_extract-utils" /-->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage18x" />
+  
+  <remove-project name="platform/external/tinycompress" />
+  <project name="FlominatorGD/platform/external/tinycompress" path="external/tinycompress" remote="gitty" revision="12-ssos-samsung" />
 
   <project name="FlominatorGD/android_device_samsung_a3xelte" path="device/samsung/a3xelte" remote="gitty" revision="ssos-12-beta" />
   <project name="FlominatorGD/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="gitty" revision="ssos-12-beta" />
