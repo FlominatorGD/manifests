@@ -31,7 +31,7 @@
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
   
-  !-- Prebuilts -->
+  <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools"  remote="lineage" clone-depth="1" />
 
   <!-- System -->
