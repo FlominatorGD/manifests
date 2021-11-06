@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitty" fetch="https://github.com"/>
+  
+  <remote  name="havoc"
+           fetch="https://github.com/Havoc-OS"
+           revision="eleven" />
+           
+   <remote  name="lineage18x"
+           revision="lineage-18.1"
+           fetch="https://github.com/LineageOS" />
+
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="havoc" clone-depth="1" />
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="havoc" />
+
+  <remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
+  
+  !-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools"  remote="lineage" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage18x" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage18x" />
+
+  <project name="FlominatorGD/android_device_samsung_a3xelte" path="device/samsung/a3xelte" remote="gitty" revision="ssos-12-beta" />
+  <project name="FlominatorGD/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="gitty" revision="ssos-12-beta" />
+  <project name="FlominatorGD/android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="aosp-12" />
+  <project name="FlominatorGD/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="aosp-12" />
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos7580" path="hardware/samsung_slsi/exynos7580" remote="gitty" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-18.1" />
+  <project name="LineageOS/android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="gitty" revision="lineage-18.1" />
+  <project name="FlominatorGD/proprietary_vendor_samsung" path="vendor/samsung" remote="gitty" revision="lineage-18.1" />
+</manifest>
