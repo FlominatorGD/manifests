@@ -30,15 +30,15 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
   
   <!-- Prebuilts -->
-  <remove-project name="android_prebuilts_extract-tools" />
+  <!--remove-project name="android_prebuilts_extract-tools" /-->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools"  remote="lineage18x" clone-depth="1" />
 
   <!-- System -->
-  <remove-project name="android_system_tools_dtbtool" />
+  <!--remove-project name="android_system_tools_dtbtool" /-->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage18x" />
 
   <!-- Tools -->
-  <remove-project name="android_tools_extract-utils" />
+  <!--remove-project name="android_tools_extract-utils" /-->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage18x" />
 
   <project name="FlominatorGD/android_device_samsung_a3xelte" path="device/samsung/a3xelte" remote="gitty" revision="ssos-12-beta" />
