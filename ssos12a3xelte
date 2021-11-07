@@ -35,7 +35,7 @@
 
   <!-- System -->
   <!--remove-project name="android_system_tools_dtbtool" /-->
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage18x" />
+  <project path="system/tools/dtbtool" name="FlominatorGD/android_system_tools_dtbtool" remote="gitty" revision="lineage-19.0" />
 
   <!-- Tools -->
   <!--remove-project name="android_tools_extract-utils" /-->
