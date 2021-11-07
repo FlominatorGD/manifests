@@ -26,7 +26,7 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="havoc" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="havoc" clone-depth="1" />
 
-  <remove-project name="platform_hardware_ril" />
+  <remove-project name="platform/hardware/ril" />
   <project path="FlominatorGD/hardware/ril" name="android_hardware_ril" remote="gitty" revision="aosp12-samsung"/>
   
   <!-- Prebuilts -->
