@@ -13,7 +13,7 @@ $ mkdir havoc ; cd havoc
 $ repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven
 
 # Clone my local repo
-$ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11 .repo/local_manifests
+$ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11-universal7580 .repo/local_manifests
 
 #!!!Be sure to remove unwanted local manifest files that arent for your device!!!
 
