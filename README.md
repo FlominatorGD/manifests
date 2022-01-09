@@ -7,13 +7,13 @@ local_manifests
 
 ```bash
 # Create dirs
-$ mkdir havoc ; cd havoc
+$ mkdir aosp ; cd aosp
 
 # Init repo
-$ repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven
+$ repo init -u https://github.com/PixelExperience/manifest -b eleven-plus
 
 # Clone my local repo
-$ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11-universal7580 .repo/local_manifests
+$ git clone https://github.com/FlominatorGD/manifests.git -b aosp-11-universal7580 .repo/local_manifests
 
 #!!!Be sure to remove unwanted local manifest files that arent for your device!!!
 
@@ -21,5 +21,5 @@ $ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11-universal7
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build
-$ . build/envsetup.sh && brunch havoc_"your-device-name"-"user or userdebug or eng"
+$ . build/envsetup.sh && brunch aosp_"your-device-name"-"user or userdebug or eng"
 ```
