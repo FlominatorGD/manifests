@@ -2,10 +2,10 @@
 <manifest>
   <remote name="gitty" fetch="https://github.com"/>
 
-  <project name="FlominatorGD/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="gitty" revision="havoc-11" />
-  <project name="FlominatorGD/android_device_samsung_a3xelte" path="device/samsung/a3xelte" remote="gitty" revision="havoc-11" />
-  <project name="FlominatorGD/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="gitty" revision="havoc-11" />
-  <project name="FlominatorGD/android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="havoc-11" />
+  <!--project name="FlominatorGD/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="gitty" revision="havoc-11" /-->
+  <project name="FlominatorGD/android_device_samsung_a3xelte" path="device/samsung/a3xelte" remote="gitty" revision="aosp-11" />
+  <project name="FlominatorGD/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="gitty" revision="aosp-11" />
+  <project name="FlominatorGD/android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="aosp-11-7580" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos7580" path="hardware/samsung_slsi/exynos7580" remote="gitty" revision="lineage-18.1" />
