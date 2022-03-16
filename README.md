@@ -27,6 +27,6 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 # Build
 $ . build/envsetup.sh
 
-#!!!Be sure to apply lagacy patches for your device!!!
+#!!!Be sure to apply legacy patches for your device!!!
 
 $ brunch lineage_"your-device-name"-"user or userdebug or eng"
