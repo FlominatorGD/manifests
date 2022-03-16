@@ -1,7 +1,9 @@
 # manifests
 local_manifests
 
-# LineageOS-19.0
+# LineageOS-19.0/19.1
+
+be aware this is in testing
 
 ### How to build ###
 
@@ -11,6 +13,10 @@ $ mkdir los19 && cd los19
 
 # Init repo
 $ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
+
+or
+
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.0
 
 # Clone my local repo
 $ git clone https://github.com/FlominatorGD/manifests.git -b lineage-19.0-a3xelte .repo/local_manifests
