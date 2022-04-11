@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: a3y17lte
+    * rom: LineageOS 18.1
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/FlominatorGD" name="gitty" />
+    <!-- Device -->
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="havoc-11-a3y17lte-system" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="havoc-11-a3y17lte-system" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="havoc-11-a3y17lte-system" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="havoc-11-a3y17lte-system" />
+    <!-- Hardware -->
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="havoc-11-a3y17lte-system" />
+    <!-- board support package (bsp) -->
+    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-18.1" />
+</manifest>
