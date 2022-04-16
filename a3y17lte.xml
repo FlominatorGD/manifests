@@ -19,8 +19,8 @@
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="havoc-11-a3y17lte-system" />
     <!-- board support package (bsp) -->
-    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1" />
-    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1" />
-    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="gitty" revision="lineage-18.1" />
-    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1-universal7870" />
+    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1-universal7870" />
+    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="gitty" revision="lineage-18.1-universal7870" />
+    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-18.1-universal7870" />
 </manifest>
