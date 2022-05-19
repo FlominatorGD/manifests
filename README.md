@@ -24,4 +24,30 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 $ . build/envsetup.sh && brunch havoc_"your-device-name"-"user or userdebug or eng" to build any device or built "a3y17lte" by following:
 $ . build/envsetup.sh && brunch havoc_a3y17lte-user
 ```
-![Screenshot_20220519-161445_Chrome](https://user-images.githubusercontent.com/75490337/169401335-e8c5cf47-2b3f-4d16-9d23-69fb5a56d208.png)
+
+# ROM screenshots
+| Home Screen             | Apps drawer                | Build info            |
+| :---------------------- |:----------------------     |:----------------------|
+| <img src="">                        | <img src="">                           | <img src="https://user-images.githubusercontent.com/75490337/169401335-e8c5cf47-2b3f-4d16-9d23-69fb5a56d208.png">                      |
+<br/>
+
+# ROM Status
+
+| Hardware/Service        | Working                    | Not Working           |
+| :---------------------- |:----------------------     |:----------------------|
+|    Wi-Fi                |   ✓                        |                       |
+|    RIL  (includes mobile-data, calls,...)                 |                          |  ✓                     |
+|    Bluetooth (includes audio input)   |   ✓                        |                       |
+|    Sensors (proximity & accelerometer)|   ✓                        |                       |
+|    GPS                |  ✗                         |                       |
+|    NFC                |   ✓                        |                       |
+|    DRM (ClearKey 1.3)|   ✓                        |                       |
+|    Widevine (v15.0.0) (L3)|   ✓                        |                       |
+|    Camera (Photos, video recording) |  ✓                       |                      |
+|    Torch                |   ✓                        |                       |
+|    Screen ( Touch, Rotation, LiveDisplay) |   ✓                        |                       |
+|    FM Radio                |   ✗                        |                       |
+|    Miracast                |   ✓                        |                       |
+|    Hotspot                |                           |   ✓                    |
+|    VoLTE                |                         |      ✗                 |
+<br/>
