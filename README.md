@@ -26,9 +26,9 @@ $ . build/envsetup.sh && brunch havoc_a3y17lte-user
 ```
 
 # ROM screenshots
-| Home Screen             | Apps drawer                | Build info            |
+| Home Screen             | Qick Settings              | Build info            |
 | :---------------------- |:----------------------     |:----------------------|
-| <img src="">                        | <img src="">                           | <img src="https://user-images.githubusercontent.com/75490337/169401335-e8c5cf47-2b3f-4d16-9d23-69fb5a56d208.png">                      |
+| <img src=![Screenshot_20220519-225844_Shady_Launcher](https://user-images.githubusercontent.com/75490337/169404576-9fb46745-6ce8-4d07-9f4b-b59c6ebb4c13.png)>                        | <img src=![Screenshot_20220519-230024_Shady_Launcher](https://user-images.githubusercontent.com/75490337/169404398-d50e8f60-0b00-4955-8261-0bb4ac43df6d.png)>                           | <img src="https://user-images.githubusercontent.com/75490337/169401335-e8c5cf47-2b3f-4d16-9d23-69fb5a56d208.png">                      |
 <br/>
 
 # ROM Status
@@ -36,7 +36,7 @@ $ . build/envsetup.sh && brunch havoc_a3y17lte-user
 | Hardware/Service        | Working                    | Not Working           |
 | :---------------------- |:----------------------     |:----------------------|
 |    Wi-Fi                |   ✓                        |                       |
-|    RIL  (includes mobile-data, calls,...)                 |                          |  ✓                     |
+|    RIL  (includes mobile-data, calls,...)                 |   ✓                     |                        |
 |    Bluetooth (includes audio input)   |   ✓                        |                       |
 |    Sensors (proximity & accelerometer)|   ✓                        |                       |
 |    GPS                |  ✗                         |                       |
