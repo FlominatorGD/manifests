@@ -7,12 +7,16 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/FlominatorGD" name="gitty" />
+    
+    <!-- Remote 2 -->
+    <remote fetch="https://github.com/samsungexynos7870" name="kernel-current" />
+    
     <!-- Device -->
     <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="havoc-11" />
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="havoc-11" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp-11-vendor" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="kernel-current" revision="aosp-11-vendor" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="havoc-11" />
