@@ -51,4 +51,5 @@ $ . build/envsetup.sh && brunch havoc_a3y17lte-user
 |    Miracast                |   ✓                        |                       |
 |    Hotspot                |   ✓                        |                        |
 |    VoLTE                |                         |      ✗                 |
+|    SafetyNet                |                         |      ✗                 |
 <br/>
