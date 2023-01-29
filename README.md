@@ -40,7 +40,7 @@ $ . build/envsetup.sh && brunch havoc_a3y17lte-user
 |    RIL  (includes mobile-data, calls,...)                 |   ✓                     |                        |
 |    Bluetooth (includes audio input)   |   ✓                        |                       |
 |    Sensors (proximity & accelerometer)|   ✓                        |                       |
-|    GPS                |                            |    ✗                   |
+|    GPS                |   ✓                       |                           |
 |    NFC                |   ✓                        |                       |
 |    DRM (ClearKey 1.3)|   ✓                        |                       |
 |    Widevine (v15.0.0) (L3)|   ✓                        |                       |
