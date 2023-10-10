@@ -12,7 +12,7 @@
     <remote fetch="https://github.com/samsungexynos7870" name="kernel-current" />
     
     <!-- Device -->
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="twrp" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="kernel-current" revision="twrp" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="kernel-current" revision="twrp" />
