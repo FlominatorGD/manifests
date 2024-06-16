@@ -1,7 +1,7 @@
 # manifests
 local_manifests
 
-# LineageOS-19.0/19.1
+# LineageOS 20
 
 be aware this is in testing
 
@@ -9,17 +9,17 @@ be aware this is in testing
 
 ```bash
 # Create dirs
-$ mkdir los19 && cd los19
+$ mkdir los20 && cd los20
 
 # Init repo
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-20
 
 or
 
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.0
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-20
 
 # Clone my local repo
-$ git clone https://github.com/FlominatorGD/manifests.git -b lineage-19.0-a3xelte .repo/local_manifests
+$ git clone https://github.com/FlominatorGD/manifests.git -b lineage-20 .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
