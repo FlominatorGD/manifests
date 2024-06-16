@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Kernel Repo -->
+  <project name="FlominatorGD/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="lineage-20" />
+
+  <!-- DEVICES -->
+  <project name="FlominatorGD/android_device_samsung_n1a-common" path="device/samsung/n1a-common" remote="github" revision="lineage-20" />
+  <project name="FlominatorGD/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="lineage-20" />
+  <project name="FlominatorGD/universal5420-common" path="device/samsung/universal5420-common" remote="github" revision="lineage-20" />
+  <project name="FlominatorGD/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-20-exynos5420" />
+
+  <!-- VENDOR -->
+  <project name="FlominatorGD/android_vendor_samsung_n1a-common" path="vendor/samsung/n1a-common" remote="github" revision="lineage-20" />
+  <project name="FlominatorGD/android_vendor_samsung_n1awifi" path="vendor/samsung/n1awifi" remote="github" revision="lineage-20" />
+  <project name="FlominatorGD/android_vendor_samsung_universal5420-common" path="vendor/samsung/universal5420-common" remote="github" revision="lineage-20" />
+
+   <!-- HARDWARE -->
+  <project name="FlominatorGD/android_hardware_samsung_slsi_exynos5420" path="hardware/samsung_slsi/exynos5420" remote="github" revision="lineage-20" />
+  <remote fetch="https://github.com/universalexynos7580" name="universalexynos7580" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="universalexynos7580" revision="lineage-20" />
+  <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="universalexynos7580" revision="lineage-20" />
+  <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="universalexynos7580" revision="lineage-20" />
+  <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="universalexynos7580" revision="lineage-20" />
+</manifest>
+
