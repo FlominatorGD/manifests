@@ -4,8 +4,8 @@
   <project name="FlominatorGD/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="lineage-18.1" />
 
   <!-- DEVICES -->
-  <project name="FlominatorGD/android_device_samsung_n1a-common" path="device/samsung/n1a-common" remote="github" revision="Lineage-18.1" />
-  <project name="FlominatorGD/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="Lineage-18.1" />
+  <project name="FlominatorGD/android_device_samsung_n1a-common" path="device/samsung/n1a-common" remote="github" revision="lineage-18.1" />
+  <project name="FlominatorGD/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="lineage-18.1" />
   <project name="FlominatorGD/android_device_samsung_universal5420-common" path="device/samsung/universal5420-common" remote="github" revision="lineage-18.1" />
   <project name="FlominatorGD/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-18.1" />
 
