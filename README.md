@@ -1,7 +1,7 @@
 # manifests
 local_manifests
 
-# LineageOS 20
+# LineageOS 18.1
 
 be aware this is in testing
 
@@ -12,14 +12,14 @@ be aware this is in testing
 $ mkdir los20 && cd los20
 
 # Init repo
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-20
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 
 or
 
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-20
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 
 # Clone my local repo
-$ git clone https://github.com/FlominatorGD/manifests.git -b lineage-20 .repo/local_manifests
+$ git clone https://github.com/FlominatorGD/manifests.git -b lineage-18.1 .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
@@ -27,6 +27,5 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 # Build
 $ . build/envsetup.sh
 
-#!!!Be sure to apply legacy patches for your device!!!
 
-$ brunch lineage_"your-device-name"-"user or userdebug or eng"
+$ brunch lineage_n1awifi-userdebug or eng"
