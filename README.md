@@ -9,12 +9,7 @@ be aware this is in testing
 
 ```bash
 # Create dirs
-$ mkdir los20 && cd los20
-
-# Init repo
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
-
-or
+$ mkdir los18 && cd los18
 
 $ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 
