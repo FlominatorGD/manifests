@@ -2,30 +2,39 @@
 <manifest>
     <!--
     * target: a3y17lte
-    * rom: HavocOS Android 11.1
+    * rom: LineageOS 18.1
     -->
 
     <!-- Remote -->
-    <remote fetch="https://github.com/FlominatorGD" name="gitty" />
-    
-    <!-- Remote 2 -->
-    <remote fetch="https://github.com/samsungexynos7870" name="kernel-current" />
+    <remote fetch="https://github.com/samsungexynos7870" name="gitty" />
+    <remote fetch="https://github.com/LineageOS" name="samsung_nfc" />
     
     <!-- Device -->
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="havoc-11" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="havoc-11" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="kernel-current" revision="aosp-11-vendor" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="havoc-11" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="havoc-11" />
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
+    
     <!-- Hardware -->
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="havoc-11-a3y17lte" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="samsung_nfc" revision="lineage-18.1" />
+    
     <!-- board support package (bsp) -->
-    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
+    <!-- Linaro SLSI BSP sources -->
+    <project name="FlominatorGD/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-18.1" />
+    <project name="FlominatorGD/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-18.1" />
+    <project name="FlominatorGD/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-18.1" />
+    <project name="FlominatorGD/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-18.1" />
+    <project name="FlominatorGD/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-18.1" />
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/LineageOS" name="slsi-sepolicy" />
+    <!-- Slsi SEpolicy -->
+    <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="slsi-sepolicy" revision="lineage-18.1" />
+
 </manifest>
