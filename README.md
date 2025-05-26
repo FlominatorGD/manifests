@@ -14,7 +14,7 @@ $ mkdir los18 && cd los18
 $ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 
 # Clone my local repo
-$ git clone https://github.com/FlominatorGD/manifests.git -b lineage-18.1-n1awifi .repo/local_manifests
+$ git clone https://github.com/FlominatorGD/manifests.git -b lineage-18.1-j5 .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
@@ -23,4 +23,4 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 $ . build/envsetup.sh
 
 
-$ brunch lineage_n1awifi-userdebug or eng"
+$ brunch lineage_j5nlte-userdebug or eng"
