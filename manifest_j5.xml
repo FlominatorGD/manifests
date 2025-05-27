@@ -20,9 +20,9 @@
   <project name="Galaxy-J5-Unofficial-LineageOS-Sources/sony_boringssl-compat" path="external/sony/boringssl-compat" revision="lineage-18.1" />
 
   <!-- CAF Repos-->
-  <project name="Galaxy-J5-Unofficial-LineageOS-Sources/hardware_qcom-caf_msm8916_media" path="hardware/qcom-caf/msm8916_64/media" revision="lineage-18.1" />
-  <project name="Galaxy-J5-Unofficial-LineageOS-Sources/hardware_qcom-caf_msm8916_audio" path="hardware/qcom-caf/msm8916_64/audio" revision="lineage-18.1" />
-  <project name="Galaxy-J5-Unofficial-LineageOS-Sources/hardware_qcom-caf_msm8916_display" path="hardware/qcom-caf/msm8916_64/display" revision="lineage-18.1" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-19.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-19.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-19.0-caf-msm8916" />
 
 
 </manifest>
