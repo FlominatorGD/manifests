@@ -17,7 +17,8 @@
   <project name="Galaxy-J5-Unofficial-LineageOS-Sources/samsung_j5_common" path="device/samsung/j5-common" revision="lineage-18.1" />
   <project name="Galaxy-J5-Unofficial-LineageOS-Sources/samsung_j5x_common" path="device/samsung/j5x-common" revision="lineage-18.1" />
   <project name="Galaxy-J5-Unofficial-LineageOS-Sources/samsung_hardware" path="hardware/samsung" revision="lineage-18.1" />
-  <project name="Galaxy-J5-Unofficial-LineageOS-Sources/sony_boringssl-compat" path="external/sony/boringssl-compat" revision="lineage-18.1" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-18.1" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>
 
   <!-- CAF Repos-->
   <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-19.0-caf-msm8916" />
